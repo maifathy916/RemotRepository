@@ -32,7 +32,7 @@ namespace WebApplication1
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Message from Test Branch");
+                    await context.Response.WriteAsync("Message from GitHub");
                 });
             });
         }
